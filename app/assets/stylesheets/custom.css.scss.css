@@ -92,9 +92,9 @@ footer {
 	border-top: 1px solid #eaeaea;
 	color: $grayLight;
 		a {
-		color: $gray;
+		color: $grayLight;
 			&:hover {
-			color: $grayDarker;
+			color: $grayLight;
 		}
 	}
 		small {
