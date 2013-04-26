@@ -32,6 +32,7 @@ textarea {
 	text-align: center;
 		h1 {
 		margin-bottom: 10px;
+		color: blue;
 	}
 }
 
@@ -56,7 +57,7 @@ h2 {
 	margin-bottom: 30px;
 	text-align: center;
 	font-weight: normal;
-	color: $grayLight;
+	color: #00FF40;
 }
 
 p {
@@ -253,4 +254,12 @@ aside {
 	width: 100%;
 	margin-top: 45px;
 	@include box_sizing;
+}
+
+.image {
+	background-image: url(http://24.media.tumblr.com/tumblr_m3j8zzLW161runr7ro1_1280.jpg);
+}
+
+.background {
+	background-image: url(http://images2.fanpop.com/images/photos/5100000/Weezy-Eff-lil-wayne-5190367-1280-1024.jpg);
 }
