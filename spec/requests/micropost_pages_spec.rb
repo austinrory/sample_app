@@ -4,7 +4,7 @@ describe "MicropostPages" do
  
 	subject {page}
 
-	let(:user) { FactoryGirl.create(:user)}
+	let!(:user) { FactoryGirl.create(:user)}
 	before { sign_in user }
 
 	describe "micropost creation" do
